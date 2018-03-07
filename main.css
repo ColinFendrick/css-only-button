@@ -1,0 +1,25 @@
+body {
+  margin-top: 100px;
+}
+
+.stars {
+  background-color: #cfcfcf;
+  text-decoration: none;
+  color: #434343;
+  width: 300px;
+  height: 200;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px 60px 20px 60px;
+  margin: 5px;
+  border-radius: 15px;
+  border: solid 1px 9f9f9f;
+  box-shadow: 0 0 0 4px #bfc0bf, 0 0 0 5px white, 0 0 0 7px #5a5a5a;
+  
+}
+
+.stars:before, .stars:after {
+  content: "\2605";
+  padding: 0px 10px;
+  color: #757575;
+}
