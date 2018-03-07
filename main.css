@@ -3,25 +3,29 @@ body {
 }
 
 .stars {
-  background-image: linear-gradient(#cecece 50%, #c2c2c2 50%);
+  background-image: linear-gradient(#d0d0d0 50%, #c3c3c3 50%);
   text-decoration: none;
-  color: #3f3f3f;
+  color: #4c4c4c;
   font-family: sans-serif;
   font-weight: 800;
   text-align: center;
   text-transform: uppercase;
-  text-shadow: 0 0 1px #3f3f3f;
-  margin: 5px;
+  text-shadow: 0px -0.3px 0px rgba(0, 0, 0, .5);
   border-radius: 7px;
   padding: 10px 5px;
-  box-shadow: 0 0 0 1px #9f9f9f, 0 0 0 3px #bfc0bf, 0 0 0 4px white, 0 0 0 5px #5a5a5a;
-  
+  box-shadow: 
+    0 0 0 1px #9f9f9f,
+    0 2px 1px #535353,
+    0 0 0 4px #bfc0bfdd, 
+    0 0 0 5px white, 
+    0 0 0 6px #5a5a5a, 
+    0 5px 7px black;
 }
 
 .stars:before, .stars:after {
   content: "\2605";
   padding: 0px 10px;
-  color: #6f6f6f;
+  color: #808080;
 }
 
 
